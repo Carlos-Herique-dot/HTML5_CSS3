@@ -1,0 +1,166 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Idrod";
+    src: url(fontes/idroid.otf);
+}
+
+/* geral */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 223, 223);
+    overscroll-behavior-y: contain;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-indent: 25px;
+}
+
+/* geral fim */
+
+/* inicio menu */
+header{
+    background-image: linear-gradient(to top,  rgb(28, 87, 24),  rgb(28, 189, 58));
+    color: white;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.477);
+    padding: 30px 0 10px 10px;
+}
+
+h1{
+    font-size: 2.2em;
+    margin: 0;
+    padding: 10px;
+}
+
+#titulo > p{
+    font-size: 1.3em;
+}
+
+#titulo{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#menu{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+}
+
+#menu > li{
+    display: inline;
+    font-size: 1.3em;  
+}
+
+.linkMenu{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.linkMenu:hover{
+    background-color: rgba(255, 255, 255, 0.234);
+    color: rgb(11, 50, 9);
+}
+
+/* Fim menu */
+
+main{
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+    position: to bottom;
+    padding: 10px;
+    border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;
+}
+
+
+article > h1{
+    margin: 0px;
+    font-family: "Idroid";
+    color: green;
+}
+
+article > h2{
+    font-family: "Idroid";
+    color: green;
+    background-image: linear-gradient(to right, rgba(20, 255, 3, 0.279),  rgba(28, 189, 57, 0.044) );
+}
+
+#mais{
+    background-color: rgba(134, 223, 223, 0.573);
+    border-radius: 15px;
+}
+
+#mais > h3{
+    background-color: rgb(28, 189, 58);
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0;
+}
+
+#assuntoCurioso{
+    padding: 10px;
+}
+
+#assuntoCurioso > p{
+    margin: 0;
+}
+
+
+#listAnd > ul > li::before{
+    content: "✔";
+    margin-right: 10px;
+}
+
+#listAnd > ul{
+    list-style-type: none;
+}
+
+#listAnd{
+    display: flex;
+}
+
+
+/* Começa o rodapé */
+footer{
+    background-color: rgb(28, 87, 24);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+footer > p{
+    margin: 0;
+}
+
+/* imagens */
+
+.img{
+    text-align: center;
+    margin: 0;
+    
+}
+.img > img{
+    max-width: 100%;
+}
+
+#video{
+    background-color: rgb(28, 87, 24) ;
+    text-align: center;
+    margin: 10px;
+    padding: 25px 40px 25px 40px;
+}
+
+iframe{
+    width: 100%;
+}
