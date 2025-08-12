@@ -11,6 +11,11 @@
     --font3: 'Sriracha', cursive;
 }
 
+html, body{
+    min-height: 100ch;
+    background-color: darkgray;
+}
+
 *{
     margin: 0;
 }
@@ -27,8 +32,8 @@ header{
     font-size: 4vw;
 }
 
-.primeira-letra{
-    font-size: 1.3em;
+header h1{
+    font-variant: small-caps;
 }
 
 header p{
@@ -53,8 +58,7 @@ main{
 
 main section{
     font-family: var(--font3);
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 30px 0;
     margin-left: 50px;
     font-size: 3vw;
 }
@@ -92,7 +96,8 @@ footer{
     color: white;
     background-color: rgba(0, 0, 0, 0.337);
     width: max-content;
-    margin-top: 7vw;
+    margin-top: 7vh;
+    padding: 0;
 }
 
 /* Fim Imagens */
