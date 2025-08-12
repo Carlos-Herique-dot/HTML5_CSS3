@@ -76,7 +76,7 @@ footer{
     background-attachment: fixed;
     background-position: right center;
     background-size: cover;
-    height: 400px;
+    height: 50vw;
     box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.367);
 }
 #pImg{
@@ -92,7 +92,7 @@ footer{
     color: white;
     background-color: rgba(0, 0, 0, 0.337);
     width: max-content;
-    top: 7%;
+    margin-top: 7vw;
 }
 
 /* Fim Imagens */
