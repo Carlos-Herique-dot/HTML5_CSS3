@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+/* Geral */
 :root{
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Passion One', cursive;
@@ -14,20 +15,84 @@
     margin: 0;
 }
 
+/* Fim Geral */
+
+/* Cabeçalho */
 header{
     background-color: black;
     font-family: var(--font2);
-    font-weight: bolder;
     color: white;
     text-align: center;
     padding: 50px;
     font-size: 4vw;
 }
 
-header h1::first-letter{
-    font-size: 5vw;
+.primeira-letra{
+    font-size: 1.3em;
 }
 
 header p{
     font-size: 3vw;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Fim Cabeçalho */
+
+/* Main */
+main{
+    background-color: white;
+}
+
+main p{
+    font-family: var(--font3);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    font-size: 3vw;
+}
+/* Fim Main */
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+/* Fim Footer */
+
+/* Imagens */
+
+.parallax{
+    position: relative;
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    height: 400px;
+    box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.367);
+}
+#pImg{
+    background-image: url('imagens/background001.jpg');
+}
+
+#sImg{
+    background-image: url('imagens/background002.jpg');
+}
+
+.back{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.337);
+    width: max-content;
+    top: 7%;
+}
+
+/* Fim Imagens */
